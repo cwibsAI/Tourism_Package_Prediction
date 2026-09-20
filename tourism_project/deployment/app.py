@@ -50,7 +50,7 @@ NumberOfChildrenVisiting = st.slider(
 )
 Designation = st.selectbox(
     "Designation",
-    ["Executive", "Manager", "AVP", "VP", "Sr. Manager"]
+    ["Executive", "Manager", "AVP", "VP", "Senior Manager"]
 )
 MonthlyIncome = st.number_input(
     "Monthly Income",
